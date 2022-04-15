@@ -6,6 +6,7 @@ For example,
 the program would solve the above puzzle as below:
 
 ?- Puzzle=[[0,14,10,35],[14,_,_,_],[15,_,_,_],[28,_,1,_]],
+
 |   puzzle_solution(Puzzle).
 
 Puzzle = [[0, 14, 10, 35], [14, 7, 2, 1], [15, 3, 7, 5], [28, 4, 1, 7]] ;
